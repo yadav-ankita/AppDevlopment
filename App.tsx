@@ -1,7 +1,10 @@
 import React from 'react';
 import { View, Text, StyleSheet, useColorScheme, ScrollView } from 'react-native';
 import FlatCards from './components/FlatCards';
+import FancyCard from './components/FancyCard'
+import ActionCard from './components/ActionCard'
 import ElevatedCards from './components/ElevatedCards';
+import ContactList from './components/ContactList'
 import { SafeAreaView } from 'react-native-safe-area-context';
 const App = () => {
   const isDark = useColorScheme() === 'dark';
@@ -11,6 +14,9 @@ const App = () => {
         <View>
           <FlatCards />
           <ElevatedCards />
+          <FancyCard/>
+          <ContactList/>
+          <ActionCard/>       
         </View>
       </ScrollView>
     </SafeAreaView>
