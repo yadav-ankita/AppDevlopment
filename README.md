@@ -1,97 +1,148 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# 🚀 My Awesome App
 
-# Getting Started
+A React Native learning project exploring UI components and building mini-projects to master React Native development.
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+## 📌 Project Overview
 
-## Step 1: Start Metro
+This repository is structured in two main sections:
+1. **🎓 UI Learning** - Components built to learn styling, layouts, and UI patterns
+2. **🛠️ Mini-Projects** - Standalone projects focusing on specific features and functionality
 
-First, you will need to run **Metro**, the JavaScript build tool for React Native.
+---
 
-To start the Metro dev server, run the following command from the root of your React Native project:
+## 🎓 UI Learning Components
 
-```sh
-# Using npm
+Components created to practice and understand React Native styling and design patterns.
+
+### 1. **FlatCards-ElevatedCards**
+Minimalist flat design card without elevation or complex styling.
+
+📁 **Location**: `components/FlatCards.jsx`
+📁 **Location**: `components/ElevatedCards.jsx`
+
+![Cards Component](screenshots/ui-learning/flate-elevated.jpeg)
+
+---
+### 2. **FancyCard**
+A stylized card component with shadow effects and gradient backgrounds.
+
+📁 **Location**: `components/FancyCard.jsx`
+
+![FancyCard Component](screenshots/ui-learning/fancy-card.jpeg)
+
+---
+
+### 3. **ActionCard**
+Interactive card component with buttons and click handlers.
+
+📁 **Location**: `components/ActionCard.jsx`
+
+![ActionCard Component](screenshots/ui-learning/action-card.jpeg)
+
+---
+
+### 4. **ContactList**
+List-based component demonstrating data iteration and dynamic rendering.
+
+📁 **Location**: `components/ContactList.jsx`
+
+![ContactList Component](screenshots/ui-learning/contact-list.jpeg)
+
+---
+
+### 5. **ComicCard**
+Stylized card component for practicing custom text styling and layouts.
+
+📁 **Location**: `components/ComicCard.jsx`
+
+![ComicCard Component](screenshots/ui-learning/comic-card.jpeg)
+
+---
+
+## 🛠️ Mini-Projects
+
+Standalone projects built to master specific React Native features and patterns.
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- [Node.js](https://nodejs.org/) installed
+- React Native environment set up ([Setup Guide](https://reactnative.dev/docs/set-up-your-environment))
+
+### Step 1: Install Dependencies
+
+```bash
+npm install
+# or
+yarn install
+```
+
+### Step 2: Start Metro
+
+```bash
 npm start
-
-# OR using Yarn
+# or
 yarn start
 ```
 
-## Step 2: Build and run your app
+### Step 3: Run on Android/iOS
 
-With Metro running, open a new terminal window/pane from the root of your React Native project, and use one of the following commands to build and run your Android or iOS app:
-
-### Android
-
-```sh
-# Using npm
+**Android:**
+```bash
 npm run android
-
-# OR using Yarn
+# or
 yarn android
 ```
 
-### iOS
-
-For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
-
-The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
-
-```sh
+**iOS:**
+```bash
+# First time only - install CocoaPods
 bundle install
-```
-
-Then, and every time you update your native dependencies, run:
-
-```sh
 bundle exec pod install
-```
 
-For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
-
-```sh
-# Using npm
 npm run ios
-
-# OR using Yarn
+# or
 yarn ios
 ```
 
-If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
+---
 
-This is one way to run your app — you can also build it directly from Android Studio or Xcode.
+## 📁 Project Structure
 
-## Step 3: Modify your app
+```
+MyAwesomeApp/
+├── components/                    # UI Learning components
+│   ├── FancyCard.jsx
+│   ├── ElevatedCards.jsx
+│   ├── FlatCards.jsx
+│   ├── ActionCard.jsx
+│   ├── ContactList.jsx
+│   ├── ComicCard.jsx
+│   └── Cat.jsx
+├── mini-projects/                 # Mini-projects folder
+│  
+├── screenshots/                   # Component & project screenshots
+│   ├── ui-learning/
+│   │   ├── fancy-card.png
+│   │   ├── elevated-cards.png
+│   │   ├── flat-cards.png
+│   │   ├── action-card.png
+│   │   ├── contact-list.png
+│   │   ├── comic-card.png
+│   │   └── cat.png
+│   └── mini-projects/
+│      
+├── App.tsx                        # Main app entry point
+├── package.json
+├── tsconfig.json
+└── README.md
+```
 
-Now that you have successfully run the app, let's make changes!
+## 📝 Notes
 
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
+This is a personal learning repository documenting my journey in React Native development. Each component and project builds upon previous knowledge to develop new skills.
 
-When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
-
-- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
-- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+**Status**: 🟢 Active Development  
+**Last Updated**: August 31, 2026

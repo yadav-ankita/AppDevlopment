@@ -13,11 +13,11 @@ const App = () => {
     <SafeAreaView>
       <ScrollView>
         <View>
-          {/* <FlatCards />
+          <FlatCards />
           <ElevatedCards />
           <FancyCard/>
           <ContactList/>
-          <ActionCard/>  */}
+          <ActionCard/>  
           <ComicCard/>      
         </View>
       </ScrollView>
