@@ -20,7 +20,7 @@ Minimalist flat design card without elevation or complex styling.
 📁 **Location**: `components/FlatCards.jsx`
 📁 **Location**: `components/ElevatedCards.jsx`
 
-![Cards Component](screenshots/ui-learning/flate-elevated.jpeg)
+<img src="screenshots/ui-learning/flate-elevated.jpeg" width="350" alt="Cards Component">
 
 ---
 ### 2. **FancyCard**
@@ -28,7 +28,7 @@ A stylized card component with shadow effects and gradient backgrounds.
 
 📁 **Location**: `components/FancyCard.jsx`
 
-![FancyCard Component](screenshots/ui-learning/fancy-card.jpeg)
+<img src="screenshots/ui-learning/fancy-card.jpeg" width="350" alt="FancyCard Component">
 
 ---
 
@@ -37,7 +37,7 @@ Interactive card component with buttons and click handlers.
 
 📁 **Location**: `components/ActionCard.jsx`
 
-![ActionCard Component](screenshots/ui-learning/action-card.jpeg)
+<img src="screenshots/ui-learning/action-card.jpeg" width="350" alt="ActionCard Component">
 
 ---
 
@@ -46,7 +46,7 @@ List-based component demonstrating data iteration and dynamic rendering.
 
 📁 **Location**: `components/ContactList.jsx`
 
-![ContactList Component](screenshots/ui-learning/contact-list.jpeg)
+<img src="screenshots/ui-learning/contact-list.jpeg" width="350" alt="ContactList Component">
 
 ---
 
@@ -55,7 +55,7 @@ Stylized card component for practicing custom text styling and layouts.
 
 📁 **Location**: `components/ComicCard.jsx`
 
-![ComicCard Component](screenshots/ui-learning/comic-card.jpeg)
+<img src="screenshots/ui-learning/comic-card.jpeg" width="350" alt="ComicCard Component">
 
 ---
 
