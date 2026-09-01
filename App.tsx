@@ -6,6 +6,7 @@ import ActionCard from './components/ActionCard'
 import ElevatedCards from './components/ElevatedCards';
 import ContactList from './components/ContactList'
 import ComicCard from './components/ComicCard'
+import PasswordGenerator from './components/PasswordGenerator'
 import { SafeAreaView } from 'react-native-safe-area-context';
 const App = () => {
   const isDark = useColorScheme() === 'dark';
@@ -13,12 +14,13 @@ const App = () => {
     <SafeAreaView>
       <ScrollView>
         <View>
-          <FlatCards />
+          {/* <FlatCards />
           <ElevatedCards />
           <FancyCard/>
           <ContactList/>
-          <ActionCard/>  
-          <ComicCard/>      
+          <ActionCard/>   */}
+          {/* <ComicCard/>    */}
+          <PasswordGenerator/>   
         </View>
       </ScrollView>
     </SafeAreaView>
