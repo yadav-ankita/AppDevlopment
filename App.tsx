@@ -8,24 +8,26 @@ import ContactList from './components/ContactList'
 import ComicCard from './components/ComicCard'
 import ColorGenerator from './components/ColorGenerator'
 import PasswordGenerator from './components/PasswordGenerator'
+import RollDice from './components/RollDice'
 import { SafeAreaView } from 'react-native-safe-area-context';
 const App = () => {
   const isDark = useColorScheme() === 'dark';
   return (
-    <SafeAreaView>
-      <ScrollView>
-        <View>
-          {/* <FlatCards />
-          <ElevatedCards />
-          <FancyCard/>
-          <ContactList/>
-          <ActionCard/>   */}
-          {/* <ComicCard/>    */}
-          {/* <PasswordGenerator/>    */}
-          <ColorGenerator/>
-        </View>
-      </ScrollView>
-    </SafeAreaView>
+    // <SafeAreaView>
+    //   <ScrollView>
+    //     <View>
+    //       <FlatCards />
+    //       <ElevatedCards />
+    //       <FancyCard/>
+    //       <ContactList/>
+    //       <ActionCard/>  
+    //       <ComicCard/>    
+    //       <PasswordGenerator/>   
+    //        <ColorGenerator/>   
+    //     </View>
+    //   </ScrollView>
+    // </SafeAreaView>
+    <RollDice/>
   );
 };
 const styles = StyleSheet.create({
